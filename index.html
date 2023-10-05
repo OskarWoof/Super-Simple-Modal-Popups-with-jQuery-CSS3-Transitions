@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super Simple Modal Popups Demo</title>
+  <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400;1,6..96,600&display=swap"
+    rel="stylesheet">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="v-center">
+    <div class="container">
+      <div class="left-column">
+        <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="">
+      </div>
+      <div class="right-column">
+        <h2>Izgradnja temelja</h2>
+        <p>Cras rhoncus ornare mollis. Ut tempor augue mi, sed luctus neque luctus non. Vestibulum mollis
+          tristique blandit. Aenean condimentum in leo ac feugiat. Sed posuere, est at eleifend suscipit, erat ante
+          pretium
+          turpis, eget semper ex risus nec dolor.</p>
+        <p>Etiam pellentesque nulla neque, ut ullamcorper purus facilisis at. Nam
+          imperdiet arcu felis.</p>
+        <a class="js-open-modal btn" href="#" data-modal-id="popup1">Vidi galeriju</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Box -->
+  <div id="popup1" class="modal-box">
+    <header> <a href="#" class="js-modal-close close">×</a>
+    </header>
+    <div class="modal-body">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/hero-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-5.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <!-- thumbslider -->
+      <div thumbsSlider="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/hero-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/hero-5.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer> <a href="#" class="btn btn-small js-modal-close">Close</a> </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Scripts -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- <script src="app.js"></script> -->
+  <script src="jQuery.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
